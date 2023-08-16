@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="POST" action="https://formsubmit.co/gabrielalvesoares@hotmail.com" enctype="multipart/form-data">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index2.html">
+
+        <h1>Troca de Titularidade</h1><br>
+
+      
+
+        <h2>Dados pessoais</h2>
+
+        <label for="nomecompleto_cliente">Nome completo:</label>
+        <input type="text" id="nomecompleto_cliente" name="nomecompleto_cliente"><br>
+        <label for="cpf_cliente">CPF:</label>
+        <input type="number" id="cpf_cliente" name="cpf_cliente"><br>
+        <label for="rg_cnh">RG/CNH:</label>
+        <input type="number" id="rg_cnh" name="rg_cnh"><br>
+        <label for="datanascimento">Data de nascimento:</label>
+        <input type="text" id="datanascimento" name="datanascimento"><br>
+        <label for="nome_mae">Nome da mãe:</label>
+        <input type="text" id="nome_mae" name="nome_mae"><br>
+        <label for="e-mail">E-mail:</label>
+        <input type="text" id="e-mail" name="e-mail"><br>
+        <label for="celular">Celular:</label>
+        <input type="text" id="celular" name="celular"><br>
+
+
+
+        <h2>Dados do Cliente</h2>
+        <label for="nome_cliente">Nome do Cliente (registrado na conta):</label>
+        <input type="text" id="nome_cliente" name="nome_cliente"><br>
+        <label for="numero_cliente">Número do Cliente:</label>
+        <input type="number" id="numero_cliente" name="numero_cliente"><br>
+        <label for="numero_medidor">Número do medidor:</label>
+        <input type="number" id="numero_medidor" name="numero_medidor"><br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco"><br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro"><br>
+        <label for="cep">CEP:</label>
+        <input type="number" id="cep" name="cep"><br>
+        <label for="municipio">Município:</label>
+        <input type="text" id="municipio" name="municipio"><br>
+        <label for="pontoreferencia">Ponto de referência:</label>
+        <input type="text" id="pontoreferencia" name="pontoreferencia"><br>
+        <br>
+        
+
+        <h2>Data de vencimento</h2>
+
+        <label for="data_vencimento">Data de vencimento:</label>
+        <input type="checkbox" id="data_vencimento" name="data_vencimento" value="01">01
+        <input type="checkbox" id="data_vencimento2" name="data_vencimento" value="05">05
+        <input type="checkbox" id="data_vencimento3" name="data_vencimento" value="10">10
+        <input type="checkbox" id="data_vencimento4" name="data_vencimento" value="15">15
+        <input type="checkbox" id="data_vencimento5" name="data_vencimento" value="17">17
+        <input type="checkbox" id="data_vencimento6" name="data_vencimento" value="20">20
+        <input type="checkbox" id="data_vencimento7" name="data_vencimento" value="25">25
+
+        <h2>Preferências</h2>
+
+        <label for="info">Aceita receber comunicações sobre serviços da Enel e seus parceiros?</label>
+        <input type="checkbox" id="data_vencimento6" name="data_vencimento" value="sim">SIM
+        <input type="checkbox" id="data_vencimento7" name="data_vencimento" value="não">NÃO
+
+        <h2>Anexe seus documentos</h2>
+        <input type="file" name="documentos" accept="image/png, image/jpeg, .pdf"><br><br>
+        <button type="submit">Enviar formulário</button><br>
+
+    </form>
+
+</body>
+
+</html>
